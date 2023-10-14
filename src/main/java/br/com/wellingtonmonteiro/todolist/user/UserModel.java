@@ -11,7 +11,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-// O @Entity mostra que tudo dentro dessa entity será uma tabela com essas colunas
+// O @Data mostra que tudo dentro dessa entity será uma tabela com colunas criadas no banco
 @Data
 @Entity(name = "tb-users")
 public class UserModel {
